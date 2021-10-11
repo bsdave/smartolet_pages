@@ -1,0 +1,24 @@
+@import "grid/main";
+
+@import "styles/support/normalize";
+@import "styles/support/variables";
+@import "styles/support/fonts";
+@import "styles/support/mixins";
+@import "styles/support/common";
+@import "styles/support/grid";
+
+body {
+  font-family: "OpenSans", sans-serif;
+  font-size: 12px;
+  background: #E5E5E5;
+}
+
+@include tablet {
+  body {
+  }
+}
+
+@include desktop {
+  body {
+  }
+}

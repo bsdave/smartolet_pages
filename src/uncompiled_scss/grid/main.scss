@@ -1,0 +1,27 @@
+@import 'functions';
+@import 'variables';
+
+@import 'mixins/breakpoints';
+@import 'mixins/grid-framework';
+@import 'mixins/grid';
+
+@import 'grid';
+@import 'utilities/display';
+@import 'utilities/flex';
+
+@at-root {
+  @-ms-viewport {
+    width: device-width;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+}

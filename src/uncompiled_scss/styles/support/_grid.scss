@@ -1,0 +1,7 @@
+@media (max-width: map-get($container-max-widths, sm)) {
+  .container_xs-disabled {
+    padding-left: 0;
+    padding-right: 0;
+    overflow-x: hidden;
+  }
+}

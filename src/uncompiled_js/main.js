@@ -1,0 +1,4 @@
+$(function () {
+  $('html').addClass('js');
+  
+});

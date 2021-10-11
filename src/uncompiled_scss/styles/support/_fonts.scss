@@ -1,0 +1,26 @@
+$font_regular: '../fonts/OpenSans-Regular';
+$font_bold: '../fonts/OpenSans-Bold';
+
+// Normal
+@font-face {
+  font-family: 'OpenSans';
+  src: url($font_regular + '.woff2') format('woff2'),
+       url($font_regular + '.woff') format('woff'),
+       url($font_regular + '.ttf') format('truetype'),
+       url($font_regular + '.svg#OpenSans-Bold') format('svg');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+// Bold
+@font-face {
+  font-family: 'OpenSans';
+  src: url($font_bold + '.woff2') format('woff2'),
+       url($font_bold + '.woff') format('woff'),
+       url($font_bold + '.ttf') format('truetype'),
+       url($font_regular + '.svg#OpenSans-Bold') format('svg');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
