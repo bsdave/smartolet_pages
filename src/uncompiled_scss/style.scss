@@ -1,16 +1,21 @@
 @import "grid/main";
 
+// Support
 @import "styles/support/normalize";
 @import "styles/support/variables";
-@import "styles/support/fonts";
 @import "styles/support/mixins";
+@import "styles/support/fonts";
 @import "styles/support/common";
 @import "styles/support/grid";
 
+// Blocks
+@import "styles/blocks/text.scss";
+@import "styles/blocks/button.scss";
+
 body {
-  font-family: "OpenSans", sans-serif;
-  font-size: 12px;
   background: #E5E5E5;
+
+  font-family: 'Montserrat', sans-serif;
 }
 
 @include tablet {

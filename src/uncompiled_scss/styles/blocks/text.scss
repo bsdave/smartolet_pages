@@ -1,0 +1,87 @@
+.text {
+  // Default
+  font-style: normal;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0 0 10px;
+
+  // Font Colors
+  color: #000000;
+
+  &.text_blue {
+    color: #59AFFF;
+  }
+
+  // Font Family
+  &.text_monsterrat {
+    font-family: 'Montserrat';
+  }
+
+  &.text_sans_pro {
+    font-family: 'SourceSansPro';
+  }
+
+  // Font Weight
+  &.text_light {
+    font-weight: 300;
+  }
+
+  &.text_regular {
+    font-weight: 400;
+  }
+
+  &.text_medium {
+    font-weight: 500;
+  }
+
+  &.text_bold {
+    font-weight: 600;
+  }
+
+  // Font Size
+  &.text_fs-11 {
+    font-size: 11px;
+    line-height: 13px;
+  }
+
+  &.text_fs-12 {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  &.text_fs-14 {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  &.text_fs-16 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  &.text_fs-18 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  &.text_fs-20 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  &.text_fs-24 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  &.text_fs-28 {
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  &.text_fs-36 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+}

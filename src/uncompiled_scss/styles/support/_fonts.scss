@@ -1,26 +1,10 @@
-$font_regular: '../fonts/OpenSans-Regular';
-$font_bold: '../fonts/OpenSans-Bold';
+// Montserrat
+@include font-face('Montserrat', '../fonts/Montserrat-Light', 300, normal, woff2 woff);
+@include font-face('Montserrat', '../fonts/Montserrat-Regular', 400, normal, woff2 woff);
+@include font-face('Montserrat', '../fonts/Montserrat-Medium', 500, normal, woff2 woff);
+@include font-face('Montserrat', '../fonts/Montserrat-SemiBold', 600, normal, woff2 woff);
 
-// Normal
-@font-face {
-  font-family: 'OpenSans';
-  src: url($font_regular + '.woff2') format('woff2'),
-       url($font_regular + '.woff') format('woff'),
-       url($font_regular + '.ttf') format('truetype'),
-       url($font_regular + '.svg#OpenSans-Bold') format('svg');
-  font-weight: 400;
-  font-display: swap;
-  font-style: normal;
-}
-
-// Bold
-@font-face {
-  font-family: 'OpenSans';
-  src: url($font_bold + '.woff2') format('woff2'),
-       url($font_bold + '.woff') format('woff'),
-       url($font_bold + '.ttf') format('truetype'),
-       url($font_regular + '.svg#OpenSans-Bold') format('svg');
-  font-weight: 700;
-  font-display: swap;
-  font-style: normal;
-}
+// SourceSansPro
+@include font-face('SourceSansPro', '../fonts/SourceSansPro-Light', 300, normal, woff2 woff);
+@include font-face('SourceSansPro', '../fonts/SourceSansPro-Regular', 400, normal, woff2 woff);
+@include font-face('SourceSansPro', '../fonts/SourceSansPro-SemiBold', 600, normal, woff2 woff);
