@@ -1,0 +1,84 @@
+.button {
+  font-family: 'Montserrat', sans-serif;
+
+  font-style: normal;
+  font-weight: 600;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #FFFFFF;
+  background: #59AFFF;
+
+  text-decoration: none;
+
+  outline: none;
+  border: none;
+
+  margin-bottom: 15px;
+
+  // Default
+  height: 50px;
+  width: fit-content;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 18px;
+  line-height: 19px;
+
+  &.button_size-s {
+    font-size: 12px;
+    line-height: 15px;
+    height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  &.button_size-sm {
+    font-size: 12px;
+    line-height: 15px;
+    height: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  &.button_size-m {
+    height: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  &.button_width-full {
+    width: 100%;
+  }
+
+  &.button_style-bordered {
+    background: transparent;
+    border: 1px solid #59AFFF;
+    color: #59AFFF;
+  }
+
+  // TODO: move to icons pack
+  &.button_icon-cart {
+    color: transparent;
+    background-image: url("../images/icon-small-cart-white.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &.button_selected {
+    position: relative;
+
+    &::before {
+      position: absolute;
+      display: block;
+      content: "";
+      top: -4px;
+      bottom: -4px;
+      left: -4px;
+      right: -4px;
+
+      border: 2px solid #59AFFF;
+    }
+  }
+}
