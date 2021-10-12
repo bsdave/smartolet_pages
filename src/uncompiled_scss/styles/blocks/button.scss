@@ -25,6 +25,13 @@
   padding-right: 30px;
   font-size: 18px;
   line-height: 19px;
+  // Default End
+
+  &.button_fit-content {
+    height: fit-content;
+    width: fit-content;
+    padding: 5px;
+  }
 
   &.button_size-s {
     font-size: 12px;
