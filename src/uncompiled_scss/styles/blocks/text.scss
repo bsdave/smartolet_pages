@@ -4,13 +4,25 @@
   font-weight: inherit;
   font-size: inherit;
   line-height: inherit;
-  margin: 0 0 10px;
+  margin: 0;
 
   // Font Colors
-  color: #000000;
+  color: inherit;
+
+  &.text_black {
+    color: black;
+  }
+
+  &.text_white {
+    color: white;
+  }
 
   &.text_blue {
     color: #59AFFF;
+  }
+
+  &.text_gray {
+    color: #556061;
   }
 
   // Font Family
@@ -23,11 +35,11 @@
   }
 
   // Font Weight
-  &.text_light {
+  &.text_thin {
     font-weight: 300;
   }
 
-  &.text_regular {
+  &.text_normal {
     font-weight: 400;
   }
 
