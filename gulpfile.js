@@ -17,7 +17,7 @@ function css() {
 };
 
 function js() {
-  return src(['src/uncompiled_js/jquery.js', 'src/uncompiled_js/main.js'])
+  return src(['src/uncompiled_js/swiper.min.js', 'src/uncompiled_js/jquery.js', 'src/uncompiled_js/main.js'])
     .pipe(concat('main.js'))
     .pipe(uglifyjs())
     .pipe(dest('assets/javascript/'))
