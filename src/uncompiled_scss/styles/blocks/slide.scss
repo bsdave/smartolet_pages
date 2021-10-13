@@ -1,0 +1,8 @@
+.slide {
+  width: 100%;
+  height: 300px;
+
+  &.slide_tall {
+    height: 500px;
+  }
+}
