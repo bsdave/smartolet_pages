@@ -1,0 +1,30 @@
+.tile {
+  padding: 30px 40px;
+  height: 100%;
+
+  &.tile_background-white {
+    background: white;
+  }
+
+  &.tile_background-honeydew {
+    background: #F9FAF9;
+  }
+
+  &.tile_column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &.tile_duplex {
+    display: flex;
+    
+    .tile__part {
+      flex-basis: 50%;
+
+      &.tile__part_align-bottom {
+        margin-top: auto;
+      }      
+    }
+  }
+}

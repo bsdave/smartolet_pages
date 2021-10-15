@@ -1,7 +1,28 @@
-@media (max-width: map-get($container-max-widths, sm)) {
-  .container_xs-disabled {
-    padding-left: 0;
-    padding-right: 0;
-    overflow-x: hidden;
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 300px 300px; 
+  gap: 20px 20px;
+
+  &.grid_left-tower {
+    grid-template-areas: 
+      "grid__tower grid__block-1"
+      "grid__tower grid__block-2";
+  }
+
+  &.grid_right-tower {
+    grid-template-areas:
+      "grid__block-1 grid__tower"
+      "grid__block-2 grid__tower";
+  }
+
+  .grid__tower {
+    grid-area: grid__tower;
+  }
+  .grid__block-1 {
+    grid-area: grid__block-1;
+  }
+  .grid__block-2 {
+    grid-area: grid__block-2;
   }
 }
