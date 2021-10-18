@@ -74,6 +74,10 @@
     background-position: 60% 60%;
   }
 
+  &.icon_burger {
+    background-image: url("../images/icon-button-burger.svg");
+  }
+
   &.icon_arrow-right-white {
     @include icon_arrow('FFFFFF');
   }
