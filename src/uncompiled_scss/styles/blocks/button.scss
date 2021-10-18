@@ -16,8 +16,6 @@
   outline: none;
   border: none;
 
-  margin-bottom: 15px;
-
   // Default
   height: 50px;
   width: fit-content;
@@ -25,63 +23,66 @@
   padding-right: 30px;
   font-size: 18px;
   line-height: 19px;
-  // Default End
+}
 
-  &.button_fit-content {
-    height: fit-content;
-    width: fit-content;
-    padding: 5px;
-  }
+.button_fit-content {
+  height: fit-content;
+  width: fit-content;
+  padding: 5px;
+}
 
-  &.button_size-s {
-    font-size: 12px;
-    line-height: 15px;
-    height: 25px;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
+.button_size-s {
+  font-size: 12px;
+  line-height: 15px;
+  height: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
-  &.button_size-sm {
-    font-size: 12px;
-    line-height: 15px;
-    height: 50px;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
+.button_size-sm {
+  font-size: 12px;
+  line-height: 15px;
+  height: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
 
-  &.button_size-m {
-    height: 50px;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
+.button_size-m {
+  height: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
 
-  &.button_width-full {
-    width: 100%;
-  }
+.button_width-full {
+  width: 100%;
+}
 
-  &.button_style-bordered {
-    background: transparent;
-    border: 1px solid #59AFFF;
-    color: #59AFFF;
-  }
+.button_style-bordered {
+  background: transparent;
+  border: 1px solid #59AFFF;
+  color: #59AFFF;
+}
 
-  &.button_color-gray {
-    background: #939393;
-  }
+.button_transparent {
+  background: transparent;
+}
 
-  &.button_selected {
-    position: relative;
+.button_color-gray {
+  background: #939393;
+}
 
-    &::before {
-      position: absolute;
-      display: block;
-      content: "";
-      top: -4px;
-      bottom: -4px;
-      left: -4px;
-      right: -4px;
+.button_selected {
+  position: relative;
 
-      border: 2px solid #59AFFF;
-    }
+  &::before {
+    position: absolute;
+    display: block;
+    content: "";
+    top: -4px;
+    bottom: -4px;
+    left: -4px;
+    right: -4px;
+
+    border: 2px solid #59AFFF;
   }
 }
