@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 45px;
+  margin-bottom: 30px;
+}
+
+.header__menu {
+  display: none;
+
+  .menu {
+    flex-direction: row;
+
+    .menu__item {
+      margin: 0 20px;
+
+      &.menu__item_small-margin {
+        margin: 0 8px;
+      }
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+@include desktop {
+  .header__menu {
+    display: block;
+  }
+
+  .header__burger {
+    display: none;
+  }
+}
