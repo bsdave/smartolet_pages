@@ -6,6 +6,11 @@
   line-height: inherit;
   margin: 0;
 
+  // Aligns
+  &.text_align-right {
+    text-align: right;
+  }
+
   // Font Colors
   color: inherit;
 
@@ -34,8 +39,9 @@
     font-family: 'Montserrat';
   }
 
-  &.text_sans_pro {
-    font-family: 'SourceSansPro';
+  // TODO: change fonts Sans -> Rubick
+  &.text_rubik {
+    font-family: 'Montserrat';
   }
 
   // Font Weight
