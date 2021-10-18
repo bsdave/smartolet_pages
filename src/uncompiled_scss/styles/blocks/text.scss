@@ -5,109 +5,153 @@
   font-size: inherit;
   line-height: inherit;
   margin: 0;
-
-  // Aligns
-  &.text_align-right {
-    text-align: right;
-  }
-
-  // Font Colors
   color: inherit;
+}
 
-  &.text_black {
-    color: black;
-  }
+// Aligns
+.text_align-right {
+  text-align: right;
+}
 
-  &.text_white {
-    color: white;
-  }
+// Font Colors
+.text_black {
+  color: black;
+}
 
-  &.text_blue {
-    color: #59AFFF;
-  }
+.text_white {
+  color: white;
+}
 
-  &.text_gray {
-    color: #556061;
-  }
+.text_blue {
+  color: #59AFFF;
+}
 
-  &.text_red {
-    color:#CC7D7D;
-  }
+.text_gray {
+  color: #556061;
+}
 
-  // Font Family
-  &.text_monsterrat {
-    font-family: 'Montserrat';
-  }
+.text_red {
+  color: #CC7D7D;
+}
 
-  // TODO: change fonts Sans -> Rubick
-  &.text_rubik {
-    font-family: 'Montserrat';
-  }
+// Font Family
+.text_monsterrat {
+  font-family: 'Montserrat';
+}
 
-  // Font Weight
-  &.text_thin {
-    font-weight: 300;
-  }
+// TODO: change fonts Sans -> Rubick
+.text_rubik {
+  font-family: 'Montserrat';
+}
 
-  &.text_normal {
-    font-weight: 400;
-  }
+// Font Weight
+.text_thin {
+  font-weight: 300;
+}
 
-  &.text_medium {
-    font-weight: 500;
-  }
+.text_normal {
+  font-weight: 400;
+}
 
-  &.text_bold {
-    font-weight: 600;
-  }
+.text_medium {
+  font-weight: 500;
+}
 
-  // Font Size
-  &.text_fs-11 {
+.text_bold {
+  font-weight: 600;
+}
+
+
+// Font Size Mobile and Tablet
+.text_fsm-11 {
+  font-size: 11px;
+  line-height: 13px;
+}
+
+.text_fsm-12 {
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.text_fsm-14 {
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.text_fsm-16 {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.text_fsm-18 {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.text_fsm-20 {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.text_fsm-24 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.text_fsm-28 {
+  font-size: 28px;
+  line-height: 35px;
+}
+
+.text_fsm-36 {
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.text_fsm-55 {
+  font-size: 55px;
+  line-height: 67px;
+}
+
+@include desktop {
+  // Font Size Desktop
+  .text_fsd-11 {
     font-size: 11px;
     line-height: 13px;
   }
-
-  &.text_fs-12 {
+  .text_fsd-12 {
     font-size: 12px;
     line-height: 15px;
   }
-
-  &.text_fs-14 {
+  .text_fsd-14 {
     font-size: 14px;
     line-height: 19px;
   }
-
-  &.text_fs-16 {
+  .text_fsd-16 {
     font-size: 16px;
     line-height: 20px;
   }
-
-  &.text_fs-18 {
+  .text_fsd-18 {
     font-size: 18px;
     line-height: 22px;
   }
-
-  &.text_fs-20 {
+  .text_fsd-20 {
     font-size: 20px;
     line-height: 25px;
   }
-
-  &.text_fs-24 {
+  .text_fsd-24 {
     font-size: 24px;
     line-height: 30px;
   }
-
-  &.text_fs-28 {
+  .text_fsd-28 {
     font-size: 28px;
     line-height: 35px;
   }
-
-  &.text_fs-36 {
+  .text_fsd-36 {
     font-size: 36px;
     line-height: 44px;
   }
-
-  &.text_fs-55 {
+  .text_fsd-55 {
     font-size: 55px;
     line-height: 67px;
   }
