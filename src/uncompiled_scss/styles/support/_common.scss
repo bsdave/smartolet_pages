@@ -6,6 +6,10 @@
   margin-top: auto;
 }
 
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+
 @include tablet {}
 
 @include desktop {}

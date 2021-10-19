@@ -1,6 +1,5 @@
 .tile {
   padding: 30px;
-  height: 100%;
 }
 
 .tile_background-white {
@@ -13,6 +12,11 @@
 
 .tile_background-blue {
   background: #59AFFF;
+}
+
+.tile_side-padings-0 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .tile__divider {
