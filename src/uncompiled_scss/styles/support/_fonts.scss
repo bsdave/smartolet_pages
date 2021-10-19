@@ -4,7 +4,8 @@
 @include font-face('Montserrat', '../fonts/Montserrat-Medium', 500, normal, woff2 woff);
 @include font-face('Montserrat', '../fonts/Montserrat-SemiBold', 600, normal, woff2 woff);
 
-// SourceSansPro
-@include font-face('SourceSansPro', '../fonts/SourceSansPro-Light', 300, normal, woff2 woff);
-@include font-face('SourceSansPro', '../fonts/SourceSansPro-Regular', 400, normal, woff2 woff);
-@include font-face('SourceSansPro', '../fonts/SourceSansPro-SemiBold', 600, normal, woff2 woff);
+// Rubik
+@include font-face('Rubik', '../fonts/Rubik-Light', 300, normal, woff2 woff);
+@include font-face('Rubik', '../fonts/Rubik-Regular', 400, normal, woff2 woff);
+@include font-face('Rubik', '../fonts/Rubik-Medium', 500, normal, woff2 woff);
+@include font-face('Rubik', '../fonts/Rubik-SemiBold', 600, normal, woff2 woff);
