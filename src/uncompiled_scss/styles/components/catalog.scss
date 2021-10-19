@@ -1,0 +1,43 @@
+.catalog {
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  display: grid;
+  gap: 20px;
+
+  grid-template-columns: 1fr; 
+  grid-template-rows: 1fr; 
+
+  grid-template-areas:
+    "catalog__item-1"
+    "catalog__item-2"
+    "catalog__item-3";
+}
+
+@for $i from 1 through 3 {
+  .catalog__item-#{$i} {
+    grid-area: catalog__item-#{$i};
+  }
+}
+
+@include desktop {
+  .catalog {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px;
+  }
+
+  .catalog_left-tower {
+    grid-template-areas: 
+      "catalog__item-1 catalog__item-2"
+      "catalog__item-1 catalog__item-3";
+  }
+  .catalog_right-tower {
+    grid-template-areas:
+      "catalog__item-2 catalog__item-1"
+      "catalog__item-3 catalog__item-1";
+  }
+
+  .catalog__image_fix {
+    margin-top: 60px;
+  }
+}

@@ -3,26 +3,26 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 300px 300px; 
   gap: 20px 20px;
+}
 
-  &.grid_left-tower {
-    grid-template-areas: 
-      "grid__tower grid__block-1"
-      "grid__tower grid__block-2";
-  }
+.grid_left-tower {
+  grid-template-areas: 
+    "grid__block-1 grid__block-2"
+    "grid__block-1 grid__block-3";
+}
 
-  &.grid_right-tower {
-    grid-template-areas:
-      "grid__block-1 grid__tower"
-      "grid__block-2 grid__tower";
-  }
+.grid_right-tower {
+  grid-template-areas:
+    "grid__block-2 grid__block-1"
+    "grid__block-3 grid__block-1";
+}
 
-  .grid__tower {
-    grid-area: grid__tower;
-  }
-  .grid__block-1 {
-    grid-area: grid__block-1;
-  }
-  .grid__block-2 {
-    grid-area: grid__block-2;
-  }
+.grid__block-1 {
+  grid-area: grid__block-1;
+}
+.grid__block-2 {
+  grid-area: grid__block-2;
+}
+.grid__block-3 {
+  grid-area: grid__block-3;
 }
