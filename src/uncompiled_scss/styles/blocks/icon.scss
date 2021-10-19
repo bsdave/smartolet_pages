@@ -55,23 +55,33 @@
   &.icon_social-vk {
     background-image: url("../images/icon-social-vk.svg");
     background-size: 80%;
+    height: 40px;
+    width: 40px;
   }
   &.icon_social-instagram {
     background-image: url("../images/icon-social-instagram.svg");
     background-size: 75%;
+    height: 40px;
+    width: 40px;
   }
   &.icon_social-facebook {
     background-image: url("../images/icon-social-facebook.svg");
     background-size: 40%;
+    height: 40px;
+    width: 40px;
   }
   &.icon_social-telegram {
     background-image: url("../images/icon-social-telegram.svg");
     background-size: 80%;
+    height: 40px;
+    width: 40px;
   }
   &.icon_social-whatsapp {
     background-image: url("../images/icon-social-whatsapp.svg");
     background-size: 130%;
     background-position: 60% 60%;
+    height: 40px;
+    width: 40px;
   }
 
   &.icon_burger {
@@ -85,4 +95,41 @@
   &.icon_arrow-right-blue {
     @include icon_arrow('59AFFF');
   }
+}
+
+@include desktop {
+  .icon {
+
+    &.icon_social-vk {
+      background-image: url("../images/icon-social-vk.svg");
+      background-size: 80%;
+      height: 20px;
+      width: 20px;
+    }
+    &.icon_social-instagram {
+      background-image: url("../images/icon-social-instagram.svg");
+      background-size: 75%;
+      height: 20px;
+      width: 20px;
+    }
+    &.icon_social-facebook {
+      background-image: url("../images/icon-social-facebook.svg");
+      background-size: 40%;
+      height: 20px;
+      width: 20px;
+    }
+    &.icon_social-telegram {
+      background-image: url("../images/icon-social-telegram.svg");
+      background-size: 80%;
+      height: 20px;
+      width: 20px;
+    }
+    &.icon_social-whatsapp {
+      background-image: url("../images/icon-social-whatsapp.svg");
+      background-size: 130%;
+      background-position: 60% 60%;
+      height: 20px;
+      width: 20px;
+    }
+  } 
 }
