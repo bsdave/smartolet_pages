@@ -1,0 +1,33 @@
+.product {
+  .product__image {
+    margin-bottom: 20px;
+  }
+
+  .product__description {
+    margin-bottom: 20px;
+  }
+
+  .product__price {
+  }
+}
+
+@include desktop {
+  .product {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 auto;
+
+    .product__image {
+      flex-basis: 40%;
+      margin-right: auto;
+    }
+  
+    .product__description {
+      flex-basis: 50%;
+    }
+  
+    .product__price {
+      flex-basis: 100%;
+    }
+  }
+}
