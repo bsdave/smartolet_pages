@@ -6,8 +6,17 @@
   margin-top: auto;
 }
 
+.mb-10 {
+  margin-bottom: 10px !important;
+}
+
 .mb-20 {
   margin-bottom: 20px !important;
+}
+
+.divider {
+  height: 80px;
+  width: 100%;
 }
 
 @include tablet {}

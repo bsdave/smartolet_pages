@@ -1,5 +1,8 @@
 .tile {
   padding: 30px;
+  box-sizing: border-box;
+  height: calc(100% - 20px);
+  margin-bottom: 20px;
 }
 
 .tile_background-white {
