@@ -1,0 +1,20 @@
+.breadcrumbs {
+  display: flex;
+}
+
+.breadcrumbs__item {
+  display: block;
+  color: #939393;
+
+  &.breadcrumbs__item_active {
+    color: #59AFFF;
+  }
+
+  &:not(:last-child) {
+    &::after {
+      content: " /";
+      margin-right: 5px;
+      color: #939393;
+    }
+  }
+}
