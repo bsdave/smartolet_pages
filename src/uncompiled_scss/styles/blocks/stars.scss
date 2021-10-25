@@ -5,6 +5,9 @@
 .stars {
   width: calc(var(--rate) * var(--star-block-width));
   overflow-x: hidden;
+
+  flex-shrink: 0;
+  flex-grow: 0;
 }
 
 .stars__visible {
