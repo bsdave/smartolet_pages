@@ -24,6 +24,9 @@
   .catalog {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 300px;
+
+    grid-template-areas:
+    "catalog__item-1 catalog__item-2 catalog__item-3";
   }
 
   .catalog_left-tower {

@@ -1,0 +1,49 @@
+.product-show {
+  
+}
+
+.product-show__title {
+}
+
+.product-show__title_desktop {
+  display: none;
+}
+
+.product-show__images {
+
+}
+
+.product-show__info {
+  margin-top: 30px;
+}
+
+.product-show__divider {
+  height: 1px;
+  width: 100%;
+  display: block;
+  background-color: #C4C4C4;
+
+  margin: 15px 0;
+}
+
+.product-show__selectors {
+  margin-bottom: 20px;
+
+  .button {
+    margin-left: 15px;
+  }
+}
+
+@include desktop {
+  .product-show__title_desktop {
+    display: block;
+  }
+
+  .product-show__title_mobile {
+    display: none;
+  }
+  
+  .product-show {
+
+  }
+}

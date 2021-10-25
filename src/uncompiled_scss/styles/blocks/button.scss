@@ -1,5 +1,6 @@
 .button {
   font-family: 'Montserrat', sans-serif;
+  white-space: nowrap;
 
   font-style: normal;
   font-weight: 600;
@@ -55,6 +56,10 @@
 
 .button_width-full {
   width: 100%;
+}
+
+.button_width-fix {
+  min-width: 50px;
 }
 
 .button_style-bordered {
