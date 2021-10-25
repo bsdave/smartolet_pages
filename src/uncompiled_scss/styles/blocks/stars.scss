@@ -1,0 +1,31 @@
+.stars {
+  display: flex;
+  justify-content: space-between;
+  min-width: 200px;
+  max-width: 250px;
+  position: relative;
+
+  &::after {
+    position: absolute;
+    z-index: 1;
+    background: white;
+    content: "";
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: calc(100% - var(--rate));
+  }
+}
+
+.stars__star {
+  display: block;
+  height: 35px;
+  width: 35px;
+  background-image: url("../images/icon-star-filled.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.stars__star_empty {
+  background-image: url("../images/icon-star-transparent.svg");
+}
