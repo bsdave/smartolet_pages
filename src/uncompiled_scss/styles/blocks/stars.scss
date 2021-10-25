@@ -1,20 +1,17 @@
+:root {
+  --star-block-width: 44px;
+}
+
 .stars {
+  width: calc(var(--rate) * var(--star-block-width));
+  overflow-x: hidden;
+}
+
+.stars__visible {
   display: flex;
   justify-content: space-between;
-  min-width: 200px;
-  max-width: 250px;
+  width: calc(var(--star-block-width) * 5);
   position: relative;
-
-  &::after {
-    position: absolute;
-    z-index: 1;
-    background: white;
-    content: "";
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: calc(100% - var(--rate));
-  }
 }
 
 .stars__star {
