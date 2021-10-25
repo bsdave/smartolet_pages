@@ -1,0 +1,33 @@
+.specifications {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 10px;
+
+  * {
+    display: inline-block;
+    background: white;
+    z-index: 1;
+  }
+
+  .text {
+    &:first-child {
+      padding-right: 10px;
+    }
+
+    &:last-child {
+      padding-left: 10px;
+    }
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    left: 0;
+    right: 0;
+    bottom: 4px;
+
+    border: 1px dashed #C4C4C4;
+    position: absolute;
+  }
+}
