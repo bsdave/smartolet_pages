@@ -88,6 +88,10 @@
     background-image: url("../images/icon-button-burger.svg");
   }
 
+  &.icon_close {
+    background-image: url("../images/icon-x.svg");
+  }
+
   &.icon_arrow-right-white {
     @include icon_arrow('FFFFFF');
   }
