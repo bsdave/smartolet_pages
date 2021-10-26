@@ -23,4 +23,11 @@
 
 @include tablet {}
 
-@include desktop {}
+@include desktop {
+  .sticky {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 80px;
+    height: fit-content !important;
+  }
+}
