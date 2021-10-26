@@ -861,7 +861,7 @@
   <div class="divider"></div>
 
   <div class="container">
-    <div class="raw">
+    <div class="row">
       <div class="col-6">
         <label class="checkbox mb-20">
           <span class="checkbox__input">
@@ -905,7 +905,45 @@
       </div>
 
       <div class="col-6">
-        <!-- Place for radio buttons -->
+        <label class="radio mb-20">
+          <span class="radio__input">
+            <input type="radio" name="radio" id="checkbox-1">
+            <span class="radio__control"></span>
+          </span>
+          <span class="radio__label">
+            <span class="text text_rubik text_fsm-14">Radio</span>
+          </span>
+        </label>
+
+        <label class="radio mb-20">
+          <span class="radio__input">
+            <input type="radio" name="radio">
+            <span class="radio__control"></span>
+          </span>
+          <span class="radio__label">
+            <span class="text text_rubik text_fsm-14">Radio - Checked</span>
+          </span>
+        </label>
+
+        <label class="radio mb-20 radio--disabled">
+          <span class="radio__input">
+            <input type="radio" name="radio" disabled>
+            <span class="radio__control"></span>
+          </span>
+          <span class="radio__label">
+            <span class="text text_rubik text_fsm-14">Radio - Disabled</span>
+          </span>
+        </label>
+
+        <label class="radio mb-20 radio--disabled">
+          <span class="radio__input">
+            <input type="radio" name="radio" disabled checked>
+            <span class="radio__control"></span>
+          </span>
+          <span class="radio__label">
+            <span class="text text_rubik text_fsm-14">Radio - Disabled Checked</span>
+          </span>
+        </label>
       </div>
     </div>
   </div>
