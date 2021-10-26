@@ -6,7 +6,7 @@
   margin-top: auto !important;
 }
 
-@each $margin in 10, 20, 30, 40 {
+@each $margin in 10, 20, 30, 40, 80 {
   .mt-#{$margin} {
     margin-top: #{$margin}px !important;
   }
@@ -29,5 +29,11 @@
     position: -webkit-sticky;
     top: 80px;
     height: fit-content !important;
+  }
+
+  .empty-space-desktop {
+    display: block;
+    width: 100%;
+    height: 50px;
   }
 }
