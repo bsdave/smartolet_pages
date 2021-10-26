@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="assets/styles/style.css">
   <script src="assets/javascript/main.js"></script>
 
-  <title>Cart - 2</title>
+  <title>Cart - 4</title>
   <meta name="description" content="Description">
 </head>
 
@@ -52,80 +52,13 @@
   <div class="divider"></div>
 
   <div class="container">
-    <h3 class="text text_monsterrat text_fsm-24 text_bold mb-30">Всего 3 поля и <span class="text text_blue">60 секунд</span> на решение</h3>
+    <h3 class="text text_monsterrat text_fsm-24 text_bold">Принимаем решение по заявке. Пожалуйста подождите</h3>
+    
+    <div class="divider"></div>
 
-    <form action="#" class="form">
-      <div class="row mb-30">
-        <div class="col-12 col-md-4">
-          <div class="form__input-group">
-            <label for="name" class="form__validation text text_red text_fsd-12">Заполните ФИО</label>
-            <input id="name" type="text" class="form__input" placeholder="Ф.И.О.">
-          </div>
-        </div>
-        <div class="col-12 col-md-4">
-          <div class="form__input-group">
-            <label for="birthday" class="form__validation text text_red text_fsd-12">Заполните дату рождения</label>
-            <input type="text" class="form__input" placeholder="Дата рождения" id="birthday">
-          </div>
-        </div>
-        <div class="col-12 col-md-4">
-          <div class="form__input-group">
-            <label for="phone_number" class="form__validation text text_red text_fsd-12">Заполните номер паспорта</label>
-            <input type="text" class="form__input" id="phone_number" placeholder="Номер паспорта">
-          </div>
-        </div>
-      </div>
-      
-      <div class="empty-space-desktop"></div>
-
-      <div class="row">
-        <div class="col-12 col-md-8">
-          <label class="checkbox mb-20">
-            <span class="checkbox__input">
-              <input type="checkbox" name="checkbox" id="checkbox-1">
-              <span class="checkbox__control"></span>
-            </span>
-            <span class="radio__label">
-              <span class="text text_rubik text_fsm-14">Проставляя галочку, я подтверждаю, что ознакомился с <a href="#" class="link"><span class="text text_blue">соглашением</span></a> об использовании простой электронной подписи и согласен с его условиями, в т. ч. для подписания согласия на запрос в бюро кредитных историй.</span>
-            </span>
-          </label>
-
-          <label class="checkbox mb-20">
-            <span class="checkbox__input">
-              <input type="checkbox" name="checkbox" id="checkbox-1">
-              <span class="checkbox__control"></span>
-            </span>
-            <span class="radio__label">
-              <span class="text text_rubik text_fsm-14">Отправляя заявку я соглашаюсь с <a href="#" class="link"><span class="text text_blue">политикой обработки персональных данных</span></a></span>
-            </span>
-          </label>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12 col-md-4">
-          <div class="mb-10 mt-20">
-            <div class="form__input-group">
-              <label for="phone2" class="form__validation text text_red text_fsd-12">Wrong</label>
-              <input type="text" class="form__input" placeholder="Телефон" id="phone2">
-            </div>
-  
-            <button class="button button_size-m button_color-gray" type="submit">Получить SMS-код</button>
-          </div>
-        </div>
-
-        <div class="col-12 col-md-4 offset-md-1">
-          <div class="mb-10 mt-20">
-            <div class="form__input-group">
-              <label for="sms" class="form__validation text text_red text_fsd-12">Проверьте код оператора или региона</label>
-              <input type="text" class="form__input" placeholder="SMS-код" id="sms">
-            </div>
-  
-            <button class="button button_size-m" type="submit">Отправить заявку</button>
-          </div>
-        </div>
-      </div>
-    </form>
+    <div class="d-flex justify-content-center">
+      <div id="countdown"></div>
+    </div>
   </div>
 
   <div class="divider"></div>
