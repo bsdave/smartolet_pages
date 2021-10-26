@@ -22,7 +22,7 @@
 @import "styles/blocks/menu.scss";
 @import "styles/blocks/breadcrumbs.scss";
 @import "styles/blocks/sorting.scss";
-@import "styles/blocks/specifications.scss";
+@import "styles/blocks/catalogue.scss";
 @import "styles/blocks/stars.scss";
 
 // Components
@@ -33,6 +33,7 @@
 @import "styles/components/product-show.scss";
 @import "styles/components/calculator.scss";
 @import "styles/components/reviews.scss";
+@import "styles/components/cart-items.scss";
 
 body {
   background: #FFFFFF;

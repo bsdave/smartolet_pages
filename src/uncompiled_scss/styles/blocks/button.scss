@@ -26,6 +26,10 @@
   line-height: 19px;
 }
 
+.button_column {
+  flex-direction: column;
+}
+
 .button_fit-content {
   height: fit-content;
   width: fit-content;
@@ -50,6 +54,12 @@
 
 .button_size-m {
   height: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.button_size-l {
+  height: 55px;
   padding-left: 30px;
   padding-right: 30px;
 }
