@@ -73,7 +73,7 @@ $(function () {
       ></path>
     </g>
   </svg>
-  <span id="countdown-label" class="countdown__label">${formatTime(
+  <span id="countdown-label" class="countdown__label text text_rubik text_medium text_fsm-36">${formatTime(
     timeLeft
   )}</span>
 </div>
@@ -102,14 +102,7 @@ $(function () {
   }
 
   function formatTime(time) {
-    const minutes = Math.floor(time / 60);
-    let seconds = time % 60;
-
-    if (seconds < 10) {
-      seconds = `0${seconds}`;
-    }
-
-    return `${minutes}:${seconds}`;
+    return `${time} сек`;
   }
 
   function setRemainingPathColor(timeLeft) {
