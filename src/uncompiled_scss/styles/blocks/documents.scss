@@ -1,0 +1,12 @@
+.documents {
+  display: flex;
+  flex-direction: column;
+}
+
+.documents__document {
+  margin-bottom: 20px;
+}
+
+.documents__icon {
+  margin-right: 15px;
+}

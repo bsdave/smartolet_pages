@@ -4,6 +4,8 @@
   background-repeat: no-repeat;
   background-position: center;
 
+  flex-shrink: 0;
+
   &.icon_size-s {
     height: 20px;
     width: 20px;
@@ -90,6 +92,10 @@
 
   &.icon_close {
     background-image: url("../images/icon-x.svg");
+  }
+
+  &.icon_document {
+    background-image: url("data:image/svg+xml,%3Csvg width='12' height='15' viewBox='0 0 12 15' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 3.52941V0L11.5 3.52941H8Z' fill='%233B89CF'/%3E%3Cpath d='M0 0H7V4.41176H12V14.1176H0V0Z' fill='%233B89CF'/%3E%3C/svg%3E%0A");
   }
 
   &.icon_arrow-right-white {
