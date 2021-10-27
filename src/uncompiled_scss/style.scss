@@ -26,6 +26,7 @@
 @import "styles/blocks/stars.scss";
 @import "styles/blocks/countdown.scss";
 @import "styles/blocks/documents.scss";
+@import "styles/blocks/backgrounded-box.scss";
 
 // Components
 @import "styles/components/header.scss";
@@ -37,6 +38,7 @@
 @import "styles/components/reviews.scss";
 @import "styles/components/cart-summary.scss";
 @import "styles/components/cart-item.scss";
+@import "styles/components/ordered-good.scss";
 
 body {
   background: #FFFFFF;
