@@ -4,7 +4,18 @@
   text-decoration: none;
   color: inherit;
 
+  border-bottom: 1px solid transparent;
+
   &.link_decorated {
     text-decoration: underline;
+  }
+}
+
+@include desktop {
+  .link {
+    &:hover {
+      opacity: 0.8;
+      border-bottom: 1px solid #59AFFF;
+    }
   }
 }

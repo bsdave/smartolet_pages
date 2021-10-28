@@ -109,3 +109,17 @@
 .button_decorated {
   text-decoration: underline;
 }
+
+@include desktop {
+  .button {
+    &:hover {
+      opacity: 0.9;
+      box-shadow: 1px 1px 8px #939393;
+    }
+
+    &:active {
+      opacity: 1;
+      box-shadow: 1px 1px 5px #939393;
+    }
+  }
+}
