@@ -1,0 +1,16 @@
+.payment-graph {
+  width: 100%;
+  text-align: left;
+
+  .payment-graph__row {
+    &:not(:last-child) {
+      border-bottom: 1px solid #939393;
+    }
+  }
+
+  .text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+  }
+}
