@@ -120,6 +120,16 @@
     .loan__buttons {
       flex-direction: row;
       justify-content: space-between;
+
+      .button {
+        &:first-child {
+          margin-right: 20px;
+        }
+
+        &:last-child {
+          margin-left: 20px;
+        }
+      }
     }
   }
 }
