@@ -4,7 +4,8 @@
     flex-direction: column;
     justify-content: flex-end;
     max-height: 80px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 
     &.form__input-group_invalid {
       color: #CC7D7D;
@@ -22,6 +23,7 @@
   .form__validation {
     display: inline-block;
     color: transparent;
+    height: 60px;
   }
 
   .form__input {

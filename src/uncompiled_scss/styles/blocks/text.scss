@@ -20,6 +20,10 @@
   border-bottom: 1px dashed;
 }
 
+.text_decorated {
+  text-decoration: underline;
+}
+
 // Aligns
 .text_align-right {
   text-align: right;
@@ -72,7 +76,7 @@
 }
 
 // Font Family
-.text_monsterrat {
+.text_monserrat {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -99,11 +103,6 @@
 
 
 // Font Size Mobile and Tablet
-.text_fsm-11 {
-  font-size: 11px;
-  line-height: 13px;
-}
-
 .text_fsm-12 {
   font-size: 12px;
   line-height: 15px;
@@ -129,6 +128,11 @@
   line-height: 25px;
 }
 
+.text_fsm-22 {
+  font-size: 22px;
+  line-height: 27px;
+}
+
 .text_fsm-24 {
   font-size: 24px;
   line-height: 30px;
@@ -144,11 +148,6 @@
   line-height: 44px;
 }
 
-.text_fsm-55 {
-  font-size: 55px;
-  line-height: 67px;
-}
-
 .text_fsm-160 {
   font-size: 160px;
   line-height: 190px;
@@ -156,10 +155,7 @@
 
 @include desktop {
   // Font Size Desktop
-  .text_fsd-11 {
-    font-size: 11px;
-    line-height: 13px;
-  }
+
   .text_fsd-12 {
     font-size: 12px;
     line-height: 15px;
@@ -192,8 +188,8 @@
     font-size: 36px;
     line-height: 44px;
   }
-  .text_fsd-55 {
-    font-size: 55px;
-    line-height: 67px;
+  .text_fsd-44 {
+    font-size: 44px;
+    line-height: 56px;
   }
 }

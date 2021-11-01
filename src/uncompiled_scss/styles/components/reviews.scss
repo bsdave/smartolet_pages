@@ -9,6 +9,10 @@
 
 .review__post {
   padding: 25px 0;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid #93939346;
+  }
 }
 
 .review__stars {
