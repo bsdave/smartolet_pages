@@ -3,6 +3,10 @@ $(function () {
 
   initializeRanges();
 
+  $(".header__burger").on('click', function () {
+    $(".header__menu").toggleClass("header__menu_opened");
+  });
+  
   new Swiper('.swiper.swiper_paginate-dots', {
     loop: true,
 
