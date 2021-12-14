@@ -130,6 +130,25 @@
   }
 }
 
+.icon__counter {
+  display: inline-flex;
+  background: #EE4B6A;
+  border-radius: 50%;
+
+  align-items: center;
+  justify-content: center;
+
+  height: 15px;
+  width: 15px;
+
+  flex-shrink: 0;
+  flex-grow: 0;
+
+  top: 6px;
+  left: 8px;
+  position: relative;
+}
+
 @include desktop {
   .icon {
 
